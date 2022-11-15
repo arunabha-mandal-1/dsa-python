@@ -1,0 +1,12 @@
+# Hash table in Python
+# Dict implements hash table. Hash table is the underlying data structure in dict.
+# What is hash function?
+    # see the image but there are many more different ways to implement hash function
+    # lookup by key is O(1) on average
+    # insertion and deletion is O(1) on average
+    # in worst case, it might be more than O(1)
+
+# python - dictionary
+# java - hashmap, linkedhashmap
+# c++ - std::map
+

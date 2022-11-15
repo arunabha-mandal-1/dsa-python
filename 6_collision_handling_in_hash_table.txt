@@ -1,0 +1,4 @@
+# What if two keys try to store value in the same location > what do I do here?
+    # 1st solution > chaining : like linked list, search might be order of O(n) in case of bad hash function
+    # 2nd solution > if the location is fixed, we will go to next one circularly
+    # 
