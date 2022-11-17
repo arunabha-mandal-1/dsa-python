@@ -1,0 +1,23 @@
+# Follows last in first out (lifo)
+# push/pop element -> O(1)
+# search element by value -> O(n)
+
+# use cases for stack
+    # function calling in any programming language is managed using a stack
+    # undo(strl+z) functionality in any editor uses stack to track down last set of operation
+
+'''
+    language            class
+
+    python              list
+                        collection.deque
+                        collection.LifoQueue
+    
+    JAVA                stack
+    JAVA                deque
+    C++                 std::stack
+'''
+
+# we should not use list while implementing stack cuz it will create twice of its space and copy all the previous elements
+# that might be costly in some cases
+# so we use collection.deque, this is implemented using double linked list
